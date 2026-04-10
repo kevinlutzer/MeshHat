@@ -3131,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 142.24) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0126c8cb-a57e-4e91-ac62-3f1f568ba0eb")
+	)
+	(wire
+		(pts
 			(xy 181.61 44.45) (xy 181.61 43.18)
 		)
 		(stroke
@@ -3198,6 +3208,16 @@
 			(type default)
 		)
 		(uuid "12e8b17d-6daf-4a88-9548-b6302931f910")
+	)
+	(wire
+		(pts
+			(xy 242.57 134.62) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16be9aee-9b59-4899-918c-f6bfe0f0a263")
 	)
 	(wire
 		(pts
@@ -3291,6 +3311,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 139.7) (xy 207.01 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdb494d-1e23-4239-9407-7643d561bef1")
+	)
+	(wire
+		(pts
 			(xy 101.6 92.71) (xy 111.76 92.71)
 		)
 		(stroke
@@ -3308,6 +3338,16 @@
 			(type default)
 		)
 		(uuid "356c0f27-7926-413b-a005-6e91d0033efc")
+	)
+	(wire
+		(pts
+			(xy 198.12 137.16) (xy 207.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a9e17d-32d2-45e1-99d0-3fec7a8a6160")
 	)
 	(wire
 		(pts
@@ -3611,6 +3651,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 149.86) (xy 243.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f58a8d8-2d79-4b6b-b6e1-28f4ece044ac")
+	)
+	(wire
+		(pts
 			(xy 111.76 67.31) (xy 110.49 67.31)
 		)
 		(stroke
@@ -3628,6 +3678,16 @@
 			(type default)
 		)
 		(uuid "736c1f9a-5133-4c32-8ade-d69ce4fb2033")
+	)
+	(wire
+		(pts
+			(xy 198.12 144.78) (xy 207.01 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f44331-b98a-40bd-b807-0f7a757190a7")
 	)
 	(wire
 		(pts
@@ -3691,6 +3751,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 139.7) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838ffcf5-89e4-4cab-9a0d-925f3194a8a0")
+	)
+	(wire
+		(pts
 			(xy 231.14 63.5) (xy 231.14 64.77)
 		)
 		(stroke
@@ -3728,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "8ed491b2-09e8-42b4-8d31-b64e27b0fede")
+	)
+	(wire
+		(pts
+			(xy 198.12 147.32) (xy 207.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90551f66-482a-4683-868c-0ba0ae79db2e")
 	)
 	(wire
 		(pts
@@ -3811,6 +3891,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 149.86) (xy 243.84 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40d9e43-0193-4644-bd01-3d65a9ebdfd4")
+	)
+	(wire
+		(pts
 			(xy 17.78 41.91) (xy 27.94 41.91)
 		)
 		(stroke
@@ -3818,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "a471f82d-1e4d-4194-a7c6-afefabc4309e")
+	)
+	(wire
+		(pts
+			(xy 198.12 127) (xy 207.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92c044e-cdce-4c8a-bbab-6aebb31fda93")
 	)
 	(wire
 		(pts
@@ -4151,6 +4251,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 132.08) (xy 207.01 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63947b4-b903-401c-baeb-4faf8768223e")
+	)
+	(wire
+		(pts
 			(xy 17.78 44.45) (xy 27.94 44.45)
 		)
 		(stroke
@@ -4228,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "f868ea51-a0c4-423e-a9bf-7db0ada323db")
+	)
+	(wire
+		(pts
+			(xy 198.12 134.62) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa155ce7-38fc-4d50-a41e-57fd01be05ee")
 	)
 	(wire
 		(pts
@@ -4309,6 +4429,16 @@
 		)
 		(uuid "1eef7e60-d1ad-4291-a05d-8cfdbf6c5f8e")
 	)
+	(label "RF_TXEN"
+		(at 198.12 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2682c9a7-5b7d-4a0f-b506-caa399195767")
+	)
 	(label "F_SD3"
 		(at 17.78 46.99 0)
 		(effects
@@ -4338,6 +4468,26 @@
 			(justify left bottom)
 		)
 		(uuid "3ea1b1ca-cb9b-4990-9a8b-18d67f73da46")
+	)
+	(label "RF_MISO"
+		(at 198.12 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49ec88cd-7ce6-47b9-b8c2-48c810a4d81a")
+	)
+	(label "RF_BUSY"
+		(at 242.57 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d2ec99f-3a6b-4fcb-a8f3-a5c78f4d147a")
 	)
 	(label "R_X_IN"
 		(at 101.6 113.03 0)
@@ -4419,6 +4569,26 @@
 		)
 		(uuid "97fc075c-2777-4d6b-8331-13ef93be1a49")
 	)
+	(label "~{RF_RST}"
+		(at 198.12 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99d325f9-9259-48aa-a13c-1ad47dc48932")
+	)
+	(label "RF_DIO2"
+		(at 242.57 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a8eac9-1d6f-422a-a04c-87047e9577fe")
+	)
 	(label "F_SD1"
 		(at 101.6 100.33 0)
 		(effects
@@ -4439,6 +4609,16 @@
 		)
 		(uuid "aed73e43-e273-4815-b98a-93e90fb9ca52")
 	)
+	(label "RF_MOSI"
+		(at 198.12 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b87679a1-2d75-43e3-9241-e117763de1bb")
+	)
 	(label "F_SD3"
 		(at 101.6 105.41 0)
 		(effects
@@ -4449,6 +4629,26 @@
 		)
 		(uuid "bdc585a4-3e6f-4a49-932b-9e0cc06f2204")
 	)
+	(label "RF_NSS"
+		(at 198.12 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdf24d9e-6aa3-43c0-8ac9-39b224d85d65")
+	)
+	(label "RF_SCK"
+		(at 198.12 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4099f31-ccdd-4c4e-b0cc-531b2bbf368c")
+	)
 	(label "R_SWDIO"
 		(at 101.6 133.35 0)
 		(effects
@@ -4458,6 +4658,16 @@
 			(justify left bottom)
 		)
 		(uuid "cc676fe7-22f1-49df-b0fd-e5713c9b3160")
+	)
+	(label "RF_RXEN"
+		(at 198.12 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc095ab7-8054-47ef-9ff5-02a01136bf40")
 	)
 	(label "R_X_OUT"
 		(at 101.6 123.19 0)
@@ -4488,6 +4698,16 @@
 			(justify left bottom)
 		)
 		(uuid "f2925266-463e-4220-a871-523bde0ee2cc")
+	)
+	(label "RF_DIO1"
+		(at 242.57 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78ea892-58f5-4ee8-bd0d-547729b55c66")
 	)
 	(label "R_X_OUT"
 		(at 50.8 81.28 0)
@@ -4954,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.934 80.264 90)
 			(effects
 				(font
@@ -5430,7 +5650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.934 85.344 90)
 			(effects
 				(font
@@ -6025,7 +6245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E22:XCVR_E22-900M30S"
+		(property "Footprint" "E22P:XCVR_E22-900M30S"
 			(at 224.79 137.16 0)
 			(effects
 				(font
@@ -6675,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.974 80.264 90)
 			(effects
 				(font
@@ -6745,7 +6965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.886 65.024 90)
 			(effects
 				(font
@@ -6948,6 +7168,72 @@
 			(project "MeshHat"
 				(path "/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae95b0ab-ea7a-4c7b-af12-1d662c99d7a6")
+		(property "Reference" "#PWR030"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b96407cf-2ac2-43db-ab62-39a37acd3870")
+		)
+		(instances
+			(project "MeshHat"
+				(path "/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 24.384 25.654 90)
 			(effects
 				(font
