@@ -2410,7 +2410,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1de60ab7-a7af-4ef3-9135-942b24f492bd")
 		(property "Reference" "J1"
 			(at 180.34 22.86 0)
@@ -2429,7 +2428,7 @@
 			)
 		)
 		(property "Footprint" "RPi_HAT:RPI_Hat_B+"
-			(at 99.06 -8.89 0)
+			(at 168.402 18.034 0)
 			(effects
 				(font
 					(size 1.524 1.524)
