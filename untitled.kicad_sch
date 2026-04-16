@@ -5551,7 +5551,7 @@
 		)
 		(uuid "0522c447-ca32-4028-98a6-7d18b88c2ead")
 	)
-	(label "R_USB_ BOOT"
+	(label "R_USB_BOOT"
 		(at 39.37 184.15 0)
 		(effects
 			(font
@@ -5570,6 +5570,16 @@
 			(justify right bottom)
 		)
 		(uuid "09bf5996-f857-485c-80ae-e76caf3ac192")
+	)
+	(label "R_USB_BOOT"
+		(at 30.48 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09ee64a7-682c-493b-adad-96631d871ad9")
 	)
 	(label "~{F_CLK}"
 		(at 13.97 29.21 0)
@@ -5740,16 +5750,6 @@
 			(justify left bottom)
 		)
 		(uuid "73f5f01c-967e-4a79-9c4c-773b1d3a4ef6")
-	)
-	(label "R_USB_BOOT"
-		(at 30.48 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76f0ad2d-e388-4663-8fb2-92b8426d0812")
 	)
 	(label "~{F_SS}"
 		(at 132.08 64.77 0)
