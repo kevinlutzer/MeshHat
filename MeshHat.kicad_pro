@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "isolated_pin_label|2070100|635000|14ecd760-f144-4011-9815-dd97ea364f35|00000000-0000-0000-0000-000000000000|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -645,7 +650,7 @@
         "uuid": "ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R9,#PWR34",
     "variants": []
   },
   "sheets": [
