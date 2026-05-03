@@ -24,6 +24,9 @@ volatile bool operationDone = false;
 // the setup function runs once when you press reset or power the board
 void setup() {
   Serial.begin(9600);
+  Serial1.begin(115200);
+  Serial1.setRX(pin_size_t pin);
+  Serial1.setTX(pin_size_t pin);
 
   delay(4000);
 
@@ -64,8 +67,8 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   Serial.printf("What the heck %d\n", radio.randomByte());
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);  // turn the LED on (HIGH is the voltage level)
+  delay(500);                      // wait for a second
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
+  delay(500);                      // wait for a second
 }
