@@ -3779,12 +3779,6 @@
 		(uuid "2cadb9b2-d748-4102-b1a7-0ad2a097d965")
 	)
 	(junction
-		(at 133.35 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eeb7c0d-727d-4f39-9ae4-2612c0e51d45")
-	)
-	(junction
 		(at 66.04 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4031,6 +4025,10 @@
 		(uuid "edb5a429-b7b8-498f-b855-b64cb9cb1c33")
 	)
 	(no_connect
+		(at 177.8 -6.35)
+		(uuid "ef90d254-6d56-489f-858c-0e6ac7b6b9e1")
+	)
+	(no_connect
 		(at 201.93 44.45)
 		(uuid "f011bcf4-b69a-4613-962f-760ec8e32087")
 	)
@@ -4091,16 +4089,6 @@
 			(type default)
 		)
 		(uuid "0f1edd98-433b-4ab1-a62c-b6b351f9b7ce")
-	)
-	(wire
-		(pts
-			(xy 133.35 40.64) (xy 133.35 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f73e090-866c-425c-86b0-424e5667f05e")
 	)
 	(wire
 		(pts
@@ -4864,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 46.99) (xy 142.24 46.99)
+			(xy 132.08 46.99) (xy 142.24 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4984,16 +4972,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 46.99) (xy 133.35 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d56b066-83de-40e2-9983-616f5f1ebabe")
-	)
-	(wire
-		(pts
 			(xy 38.1 184.15) (xy 40.64 184.15)
 		)
 		(stroke
@@ -5071,16 +5049,6 @@
 			(type default)
 		)
 		(uuid "ab1ec5ea-cd56-4564-9783-8bd8037eef34")
-	)
-	(wire
-		(pts
-			(xy 133.35 27.94) (xy 133.35 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abda99ec-23e1-4ae6-9a76-48f2f3e1274c")
 	)
 	(wire
 		(pts
@@ -7551,7 +7519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e52903e-499d-480f-8934-4d27c0485d51")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 71.12 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7615,7 +7583,7 @@
 		(instances
 			(project "MeshHat"
 				(path "/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8970,88 +8938,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 133.35 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a71eef70-0672-423a-a926-5508a26b02f1")
-		(property "Reference" "R7"
-			(at 135.89 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 135.89 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.366 37.084 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 133.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f46248b-31df-4372-9a11-d4cee7f7223a")
-		)
-		(pin "2"
-			(uuid "5bbe6aba-e48b-4ac1-8795-3f86f6f7e110")
-		)
-		(instances
-			(project "MeshHat"
-				(path "/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 62.23 184.15 0)
 		(unit 1)
@@ -10127,84 +10013,6 @@
 			(project "MeshHat"
 				(path "/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 133.35 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dea4f4be-fc43-4e34-8b61-fc52f62391ab")
-		(property "Reference" "#PWR013"
-			(at 133.35 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 133.35 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a29284e-0850-4132-9b10-3d2f4fc1f4e5")
-		)
-		(instances
-			(project "MeshHat"
-				(path "/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
