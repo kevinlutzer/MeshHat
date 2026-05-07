@@ -3931,14 +3931,6 @@
 		(uuid "18e128ff-55e1-4e37-ab06-05f10f872210")
 	)
 	(no_connect
-		(at 166.37 171.45)
-		(uuid "1becaf49-72e1-47b1-9fe4-0bfb57cd1cd4")
-	)
-	(no_connect
-		(at 166.37 173.99)
-		(uuid "28e1cfb4-89b8-4812-b2d1-7a86c0501b5c")
-	)
-	(no_connect
 		(at 193.04 100.33)
 		(uuid "32f9cce7-0706-4d97-9778-b709fa077aff")
 	)
@@ -3955,20 +3947,12 @@
 		(uuid "3e6657eb-07f8-4b02-9b17-6d525f63ad09")
 	)
 	(no_connect
-		(at 344.17 64.77)
-		(uuid "50cef078-d57e-4815-afe7-31e2ac895525")
-	)
-	(no_connect
 		(at 201.93 36.83)
 		(uuid "59bcbdda-1b2e-4c10-a8db-ecca0009951e")
 	)
 	(no_connect
 		(at 201.93 34.29)
 		(uuid "624b7ca4-73cd-4777-bcba-ed62b2019085")
-	)
-	(no_connect
-		(at 95.25 33.02)
-		(uuid "68a6d6b4-28a1-4f3e-8d46-7a1c567a67dc")
 	)
 	(no_connect
 		(at 193.04 72.39)
@@ -3989,14 +3973,6 @@
 	(no_connect
 		(at 201.93 52.07)
 		(uuid "7a922310-2346-4b7d-beea-7213d1828f93")
-	)
-	(no_connect
-		(at 166.37 166.37)
-		(uuid "7b4acc4a-9f1b-4f14-b774-11bae7b63990")
-	)
-	(no_connect
-		(at -58.42 -3.81)
-		(uuid "7df3ddae-e246-41d6-b897-9f24d5801a3c")
 	)
 	(no_connect
 		(at 53.34 60.96)
@@ -4065,20 +4041,6 @@
 	(no_connect
 		(at 193.04 87.63)
 		(uuid "f1c81d10-e162-4a39-aa2a-550afb0fcc13")
-	)
-	(no_connect
-		(at 95.25 35.56)
-		(uuid "fb3b105a-eb1e-42cb-8d34-e6867f362f9a")
-	)
-	(wire
-		(pts
-			(xy 157.48 173.99) (xy 166.37 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0126c8cb-a57e-4e91-ac62-3f1f568ba0eb")
 	)
 	(wire
 		(pts
@@ -5322,6 +5284,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 173.99) (xy 166.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d2e729-56af-4a99-92b1-8eab4c0c9d5b")
+	)
+	(wire
+		(pts
 			(xy 55.88 152.4) (xy 64.77 152.4)
 		)
 		(stroke
@@ -5840,16 +5812,6 @@
 		)
 		(uuid "0522c447-ca32-4028-98a6-7d18b88c2ead")
 	)
-	(label "R_RUN"
-		(at 78.74 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09bf5996-f857-485c-80ae-e76caf3ac192")
-	)
 	(label "RF_SCK"
 		(at 193.04 46.99 0)
 		(effects
@@ -5930,6 +5892,16 @@
 		)
 		(uuid "2ee0d3e7-5d9e-4b7e-b44f-7469fa3cb9d2")
 	)
+	(label "RF_DIO2"
+		(at 166.37 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "316b48ee-0e4b-46c8-9ee2-17c6ddbd8692")
+	)
 	(label "F_SD2"
 		(at 132.08 74.93 0)
 		(effects
@@ -5971,12 +5943,12 @@
 		(uuid "49ec88cd-7ce6-47b9-b8c2-48c810a4d81a")
 	)
 	(label "RF_BUSY"
-		(at 157.48 166.37 0)
+		(at 166.37 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4d2ec99f-3a6b-4fcb-a8f3-a5c78f4d147a")
 	)
@@ -6031,12 +6003,12 @@
 		(uuid "78846657-c3f6-4ac6-9442-3318ba28232d")
 	)
 	(label "R_USB_DM"
-		(at 85.09 33.02 0)
+		(at 95.25 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "79cb4197-415d-4796-94ef-62d1a13b827e")
 	)
@@ -6100,16 +6072,6 @@
 		)
 		(uuid "99d325f9-9259-48aa-a13c-1ad47dc48932")
 	)
-	(label "RF_DIO2"
-		(at 157.48 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2a8eac9-1d6f-422a-a04c-87047e9577fe")
-	)
 	(label "F_SD1"
 		(at 132.08 72.39 0)
 		(effects
@@ -6171,12 +6133,12 @@
 		(uuid "c4099f31-ccdd-4c4e-b0cc-531b2bbf368c")
 	)
 	(label "R_USB_DP"
-		(at 85.09 35.56 0)
+		(at 95.25 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d6e04c45-eef7-46fc-8f5a-5557fa72a323")
 	)
@@ -6231,12 +6193,12 @@
 		(uuid "f2925266-463e-4220-a871-523bde0ee2cc")
 	)
 	(label "RF_DIO1"
-		(at 157.48 171.45 0)
+		(at 166.37 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f78ea892-58f5-4ee8-bd0d-547729b55c66")
 	)
@@ -6271,6 +6233,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "R_RUN"
+		(shape input)
+		(at 78.74 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64af09e2-0878-48bb-8ded-e27a308f36a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8938 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7013,7 +6999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal"
+		(property "Footprint" "Connector_USB:USB_Mini-B_Tensility_54-00023_Vertical"
 			(at 78.74 34.29 0)
 			(hide yes)
 			(show_name no)

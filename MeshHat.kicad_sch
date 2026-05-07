@@ -2022,16 +2022,8 @@
 		(uuid "71bfa8c0-8880-4915-9b17-918e68c3dd9a")
 	)
 	(no_connect
-		(at 213.36 63.5)
-		(uuid "71f24020-3e19-4f34-a1f2-bce771727cf7")
-	)
-	(no_connect
 		(at 156.21 55.88)
 		(uuid "753214ab-c738-4d2d-ac31-975d687424a2")
-	)
-	(no_connect
-		(at 72.39 34.29)
-		(uuid "7c63e411-a568-49dc-b5af-fa38030b68c4")
 	)
 	(no_connect
 		(at 204.47 73.66)
@@ -2058,16 +2050,8 @@
 		(uuid "bd7d6511-be5d-4160-bd32-4a133a65b683")
 	)
 	(no_connect
-		(at 72.39 36.83)
-		(uuid "bf50ba2f-4224-463b-9347-3c07e04476d6")
-	)
-	(no_connect
 		(at 156.21 66.04)
 		(uuid "ca86bec5-4a51-45b5-975a-164a03a10e2c")
-	)
-	(no_connect
-		(at 72.39 31.75)
-		(uuid "ca90add9-18aa-4597-97f8-f830221062ff")
 	)
 	(wire
 		(pts
@@ -2520,12 +2504,12 @@
 		(uuid "ff246dc9-54b0-4790-a83f-350338bcc4fa")
 	)
 	(label "E_SCL"
-		(at 207.01 63.5 0)
+		(at 213.36 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "14ecd760-f144-4011-9815-dd97ea364f35")
 	)
@@ -2540,22 +2524,22 @@
 		(uuid "206f147c-31a2-40e5-9572-fee642e6198b")
 	)
 	(label "E_WP"
-		(at 59.69 36.83 0)
+		(at 72.39 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2c1a13dd-1f87-4640-a939-700fa3a948b3")
 	)
 	(label "E_SCL"
-		(at 59.69 34.29 0)
+		(at 72.39 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "55d7b5df-f14b-4d4f-8055-befbb5601416")
 	)
@@ -2580,12 +2564,12 @@
 		(uuid "a02b68ce-fbf9-4e92-befc-a904d81855ed")
 	)
 	(label "E_SDA"
-		(at 59.69 31.75 0)
+		(at 72.39 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b0155893-7658-46ca-94ce-fdffb82b097a")
 	)
@@ -2601,7 +2585,7 @@
 	)
 	(global_label "R_SWDIO"
 		(shape input)
-		(at 212.09 50.8 0)
+		(at 212.09 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2611,7 +2595,7 @@
 		)
 		(uuid "4d69a9fe-cc3e-408e-b3ff-d6abf29384ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.179 50.8 0)
+			(at 223.179 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2625,7 +2609,7 @@
 	)
 	(global_label "R_SWCLK"
 		(shape input)
-		(at 212.09 55.88 0)
+		(at 212.09 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2635,7 +2619,7 @@
 		)
 		(uuid "80faba62-8378-487c-b4dd-b42a0e34e3c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.5418 55.88 0)
+			(at 223.5418 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -267,6 +267,14 @@
       [
         "isolated_pin_label|2070100|635000|14ecd760-f144-4011-9815-dd97ea364f35|00000000-0000-0000-0000-000000000000|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff||",
         ""
+      ],
+      [
+        "no_connect_connected|1333500|584200|1af8cc7d-66ab-48de-8c2e-1ff1f176f09f|fb3b105a-eb1e-42cb-8d34-e6867f362f9a|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|",
+        ""
+      ],
+      [
+        "no_connect_connected|1574800|1663700|7ea38876-cd32-43cf-845b-e35076eb03ec|7b4acc4a-9f1b-4f14-b774-11bae7b63990|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|",
+        ""
       ]
     ],
     "meta": {
