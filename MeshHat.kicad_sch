@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RPi_Hat:RPI_Hat_B+"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2789,7 +2789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi Hat:RPI_Hat_B+"
+		(property "Footprint" "RPi_Hat:RPI_Hat_B+"
 			(at 168.402 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
