@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -132,7 +138,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -187,7 +193,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        0.8
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +224,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -247,6 +266,14 @@
     "erc_exclusions": [
       [
         "isolated_pin_label|2070100|635000|14ecd760-f144-4011-9815-dd97ea364f35|00000000-0000-0000-0000-000000000000|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff||",
+        ""
+      ],
+      [
+        "no_connect_connected|1333500|584200|1af8cc7d-66ab-48de-8c2e-1ff1f176f09f|fb3b105a-eb1e-42cb-8d34-e6867f362f9a|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|",
+        ""
+      ],
+      [
+        "no_connect_connected|1574800|1663700|7ea38876-cd32-43cf-845b-e35076eb03ec|7b4acc4a-9f1b-4f14-b774-11bae7b63990|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|/ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff/f071743a-4e4f-466f-b4e9-a324f1150a8f|",
         ""
       ]
     ],
@@ -650,7 +677,7 @@
         "uuid": "ac5b0951-7b7b-41d2-b78c-2a2e4b31a9ff"
       }
     ],
-    "used_designators": "R9,#PWR34",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

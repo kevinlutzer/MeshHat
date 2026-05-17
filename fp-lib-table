@@ -1,4 +1,5 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "RPi Hat")(type "KiCad")(uri "${KIPRJMOD}/libraries/RPi_Hat_Template/footprints/RPI_Hat.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "E22P") (type "KiCad") (uri "/Users/kevinlutzer/Projects/MeshHat/libraries/E22.pretty/XCVR_E22-900M30S.kicad_mod") (options "") (descr ""))
+	(lib (name "RPi_Hat") (type "KiCad") (uri "/Users/kevinlutzer/Projects/MeshHat/libraries/RPi_Hat_Template/footprints/RPI_Hat.pretty") (options "") (descr ""))
 )
